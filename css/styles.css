@@ -201,10 +201,7 @@ img {
   margin-right: 50px;
 }
 
-.site-nav a,
-.site-nav a,
-.header-contacts,
-.header-contacts {
+.site-nav a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -213,7 +210,6 @@ img {
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--brand-color);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .header-icon {
@@ -223,8 +219,6 @@ img {
 .header-icon:hover,
 .header-icon:focus {
   color: var(--brand-color);
-
-  /* transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .link {
@@ -273,6 +267,8 @@ img {
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   font-weight: 500;
   font-size: 14px;
@@ -519,7 +515,6 @@ img {
   fill: currentColor;
 }
 
-.social-link-footer,
 .social-link-footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
