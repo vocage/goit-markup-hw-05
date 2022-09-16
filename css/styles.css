@@ -25,10 +25,11 @@ html {
 }
 
 body {
-  margin: 0;
+  /* margin: 0; */
 
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 
   background-color: var(--accent-color);
   color: var(--text-primary);
@@ -399,16 +400,16 @@ img {
   width: 100%;
 
   position: absolute;
-  left: 0;
+  /* left: 0; */
   bottom: 0;
 
   background-color: var(--bg-color-dark);
   opacity: 0.8;
 
   font-weight: 700;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.14;
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
 
   color: var(--accent-color);
@@ -509,6 +510,7 @@ img {
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: var(--brand-color);
+  color: var(--accent-color);
 }
 
 /* Regular Customers section */
